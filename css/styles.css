@@ -2,8 +2,9 @@
   padding: 0;
   box-sizing: border-box;}
  
- 
- header{background-color: bisque;}
+ header{background-color: rgb(221, 195, 125) !important;
+  margin-bottom: 100px;  
+ } 
 
  header h1 {
   font-size: 100px;
