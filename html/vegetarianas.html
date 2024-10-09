@@ -11,32 +11,62 @@
 </head>
 
 <body>
+
      <header>
-         <h1>Recetas Fast</h1>
-         <nav>
-             <ul>
-                 <li>
-                     <a href="../html/rapidas.html">Recetas Rapidas</a>
-                 </li>
-                 <li>
-                     <a href="../html/elaboradas.html">Recetas Elaboradas</a>
-                 </li>
-                 <li>
-                     <a href="../html/vegetarianas.html">Recetas Vegetarianas</a>
-                 </li>
-                 
-                 <li>
-                     <a href="../html/gourmet.html">Recetas Gourmet</a>
-                 </li>
-                 <li>
-                     <a href="../index.html">Menu</a>
-                 </li>
-             </ul>
-         </nav>
-         
-         <img src="../multimedia/cocinando.avif" width="200px" alt="Gourmet">
+       
+        <nav class="navbar navbar-expand-lg" style="background-color: #b3e0ff;">
+            <div class="container-fluid d-flex justify-content-between">
+              <a class="navbar-brand fs-1" href="#">Recetas Fast</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Menu</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Recetas
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../html/rapidas.html">Recetas Rapidas</a></li>
+                      <li><a class="dropdown-item" href="../html/elaboradas.html">Recetas Elaboradas</a></li>
+                      <li><a class="dropdown-item" href="../html/vegetarianas.html">Recetas Vegetarianas</a></li>
+                      <li><a class="dropdown-item" href="../html/gourmet.html">Recetas Gourmet</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
          
      </header>
+
+     <span>
+        <div id="carouselExample" class="carousel slide" widht="20%">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../multimedia/comida-vegetariana2.png" class="d-block w-100" alt="vegetariana">
+              </div>
+              <div class="carousel-item">
+                <img src="../multimedia/Comida-vegetariana3.jpg" class="d-block w-100" alt="vegetariana">
+              </div>
+              <div class="carousel-item">
+                <img src="../multimedia/Comida-vegetariana4.jpg" class="d-block w-100" alt="vegetariana">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+     </span>
 
      <main class="grid-container-vegetarianas">
 
@@ -62,16 +92,10 @@
                     <li>¡Sirve y disfruta!</li>
                 </ol>
             </div>
-
-
-
-            <div class="marginImagen1">
-                <img class="grid-imagen-1" src="../multimedia/comida-vegetariana2.png" class="centrar-imagenes" width="100%" alt="Comida">
-            </div>
-
+                                
 
             <div>
-                <h3>4-Hamburguesas de lentejas</h3>
+                <h3 class="margin2">4-Hamburguesas de lentejas</h3>
                 <h4 class="ingredientes">Ingredientes:</h4>
                 <ul>
                     <li>1 taza de lentejas cocidas</li>
@@ -142,15 +166,10 @@
                     <li>Precalienta el horno a 180°C.</li>
                     <li>Asa las láminas de berenjena con un poco de aceite de oliva hasta que estén doradas.</li>
                     <li>Mezcla la ricotta con las espinacas, sal y pimienta.</li>
-                    <li>En un molde, coloca una capa de salsa de tomate, luego una capa de berenjenas, una de espinacas y repite.</li>
+                    <li>En un molde, coloca una capa de salsa de tomate, luego una capa de berenjenas, una de espinacas y repite.Cubre con queso rallado y hornea durante 20-25 minutos.</li>
                     <li>Cubre con queso rallado y hornea durante 20-25 minutos.</li>
                     <li>Deja reposar antes de servir.</li>
                 </ol>
-            </div>
-
-
-            <div class="marginImagen2">
-                <img class="grid-imagen-2" src="../multimedia/Comida-vegetariana3.jpg" class="centrar-imagenes" width="100%" alt="Comida">
             </div>
 
 

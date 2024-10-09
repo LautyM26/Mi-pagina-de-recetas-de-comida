@@ -1,44 +1,16 @@
 * {margin: 0;
   padding: 0;
   box-sizing: border-box;}
- 
- header{background-color: rgb(221, 195, 125) !important;
-  margin-bottom: 100px;  
- } 
 
- header h1 {
-  font-size: 100px;
-  font-style: italic; 
- }
-
-  body header img {
-    position: relative;
-    left: 1500px;
-    top: -100px;
+  header a {
+    text-decoration: none !important;
+    color: rgb(27, 6, 6) !important;
+    font-family: Arial, Helvetica, sans-serif !important;
   }
-
-  nav {
-    text-align: center;
-    font-size: 200%;
-    position: relative;
-    top: 50px;
-  }
-
-  a {
-    text-decoration: none;
-    color: rgb(27, 6, 6);
-    font-weight: 2000;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-
-
 
   main {background-color: rgb(221, 195, 125);}
 
-
   main h2 {
-    margin-bottom: 60px;
     font-style: oblique;
     font-size: 2rem;
   }
@@ -89,9 +61,6 @@
 
 
 
-
-
-
   .grid-container-rapidas {
     display: grid ;
     grid-template-columns: repeat(3, 1fr);
@@ -115,8 +84,6 @@
    margin-top: 50px;
    margin-bottom: 50px;
   }
-
-  
 
 
 
@@ -244,7 +211,13 @@
     font-size: 130%;
   }
 
+  footer a {
+    color: rgb(37, 18, 124);
+    text-decoration: none;
+  }
+
   .moverFooter {
+    color: black;
     text-align: center;
     padding-bottom: 20px;
   }
@@ -273,12 +246,6 @@
     margin-bottom: 75px;
   }
 
-  .centrar-imagenes {
-    margin-bottom: 75px;
-    justify-content: center;
-    margin-left: 650px;
-  }
-
   .ingredientes {
     margin-top: 20px;
     font-size: 3rem;
@@ -292,14 +259,5 @@
   }
 
   .margin {
-    margin-top: 520px;
-  }
-
-  .marginImagen1 {
-    margin-top: 300px;
-    margin-bottom: 150px;
-  }
-
-  .marginImagen2 {
-    margin-bottom: 50px;
+    margin-top: 100px;
   }
