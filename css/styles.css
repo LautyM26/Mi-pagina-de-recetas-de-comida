@@ -4,11 +4,17 @@
 
   header a {
     text-decoration: none !important;
-    color: rgb(27, 6, 6) !important;
+    color: rgb(14, 1, 1);
     font-family: Arial, Helvetica, sans-serif !important;
   }
 
-  main {background-color: rgb(221, 195, 125);}
+  span {
+    background-image: url(../multimedia/fondo-de-pagina.jpg);
+  }
+
+  main {
+    background-image: url(../multimedia/fondo-de-pagina.jpg);
+  }
 
   main h2 {
     font-style: oblique;
@@ -30,7 +36,6 @@
   .grid-container .grid-item-1 {
     grid-column: 1/3;
     grid-row: 1/3;
-    border-radius: 10px;
     text-align: center;
     font-size: 19px;
   }
@@ -38,7 +43,6 @@
   .grid-container .grid-item-2 {
     grid-column: 3/5;
     grid-row: 1/3;
-    border-radius: 10px;
     text-align: center;
     font-size: 20px;
   }
@@ -46,7 +50,6 @@
   .grid-container .grid-item-3 {
     grid-column: 1/3;
     grid-row: 3/5;
-    border-radius: 10px;
     text-align: center;
     font-size: 20px;
   }
@@ -54,10 +57,10 @@
   .grid-container .grid-item-4 {
     grid-column: 3/5;
     grid-row: 3/5;
-    border-radius: 10px;
     text-align: center;
     font-size: 20px;
   }
+
 
 
 
@@ -141,10 +144,6 @@
     margin-bottom: 50px;
   }
 
-  .grid-container-vegetarianas .grid-item-1 .grid-imagen-1 {
-   display: flex;
-  }
-
   .grid-container-vegetarianas .grid-item-2 {
     display: grid;
     align-items: center;
@@ -156,10 +155,6 @@
     gap: 150px;
     margin-top: 50px;
     margin-bottom: 50px;
-  }
-
-  .grid-container-vegetarianas .grid-item-1 .grid-imagen-2 {
-    display: flex;
   }
 
 
@@ -198,26 +193,28 @@
 
 
 
-  footer {background-color: rgb(50, 77, 112);}
+  footer {background-color: rgb(3, 1, 1);}
 
   footer h3 {
-    color: rgb(0, 0, 0);
+    color: white;
     padding-top: 20px;
     font-style: italic;
     font-size: 2rem;
   }
 
   footer h4 {
+    padding: 20px;
+    color: white;
     font-size: 130%;
   }
 
   footer a {
-    color: rgb(37, 18, 124);
+    color: rgb(139, 20, 20);
     text-decoration: none;
   }
 
   .moverFooter {
-    color: black;
+    color: white;
     text-align: center;
     padding-bottom: 20px;
   }
@@ -227,8 +224,10 @@
 
 
 
-  h3 {
+  main h3 {
     color: rgb(13, 83, 25);
+    background-color: rgb(231, 231, 229);
+    border-radius: 10%;
     font-size: 3rem;
   }
 
@@ -259,5 +258,10 @@
   }
 
   .margin {
-    margin-top: 100px;
+    margin-top: 250px;
+  }
+
+  .pseudoclase :hover{
+    margin-right: 5px;
+    transition: 1s;
   }
