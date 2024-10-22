@@ -20,13 +20,13 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 250px);
   gap: 25px;
- }
+}
 
 .grid-container .grid-item-1 {
   grid-column: 1/3;
   grid-row: 1/3;
   text-align: center;
-  font-size: 19px;
+  font-size: 20px;
 }
 .grid-container .grid-item-2 {
   grid-column: 3/5;
@@ -56,18 +56,14 @@
 }
 .grid-container-rapidas .grid-item-1 {
   display: grid;
-  margin-top: 50px;
-  margin-bottom: 30px;
 }
 .grid-container-rapidas .grid-item-2  {
   display: flex;
   align-items: center;
-  padding-left: 2rem;
 }
 .grid-container-rapidas .grid-item-3 {
- display: grid;
- margin-top: 50px;
- margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column; 
 }
 
 
@@ -76,30 +72,27 @@
   display: grid ;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 150px;
 }
 .grid-container-elaboradas .grid-item-1 {
   display: grid;
-  gap: 150px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column; /* Alinea en columna para pantallas pequeñas */
 }
 .grid-container-elaboradas .grid-item-2{
   display: grid;
-  gap: 150px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column; /* Alinea en columna para pantallas pequeñas */
 }
 .grid-container-elaboradas .grid-item-2 .grid-imagen {
   display: grid;
+  width: 100%;
   align-items: center;
-  gap: 100px;
+  flex-direction: column; /* Alinea en columna para pantallas pequeñas */
 }
 .grid-container-elaboradas .grid-item-3 {
   display: grid;
-  gap: 150px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column; /* Alinea en columna para pantallas pequeñas */
 }
 
 
@@ -108,24 +101,21 @@
   display: grid ;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 150px;
 }
 .grid-container-vegetarianas .grid-item-1 {
   display: grid;
-  gap: 150px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column; /* Alinea en columna para pantallas pequeñas */
 }
 .grid-container-vegetarianas .grid-item-2 {
   display: grid;
   align-items: center;
-  gap: 100px;
+  flex-direction: column; /* Alinea en columna para pantallas pequeñas */
 }
 .grid-container-vegetarianas .grid-item-3 {
   display: grid;
-  gap: 150px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column; /* Alinea en columna para pantallas pequeñas */
 }
 
 
@@ -134,67 +124,58 @@
   display: grid ;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 150px;
 }
 .grid-container-gourmet .grid-item-1 {
   display: grid;
-  gap: 150px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column; /* Alinea en columna para pantallas pequeñas */
 }
 .grid-container-gourmet .grid-item-2 {
   display: flex;
   align-items: center;
-  padding-left: 2rem;
+  align-items: center;
+  flex-direction: column; /* Alinea en columna para pantallas pequeñas */
 }
 .grid-container-gourmet .grid-item-3 {
   display: grid;
-  gap: 150px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column; /* Alinea en columna para pantallas pequeñas */
 }
   
 
 
 main {
-    h3 {
+
+  h3 {
         color: rgb(13, 83, 25);
         background-color: rgb(231, 231, 229);
         border-radius: 10%;
         font-size: 3rem;
     }
-}
 
-ul {
-    li {
-        font-size: 2rem;
-        font-style: oblique;
-    }
-}
-
-ol {
-    li {
-        font-size: 2rem;
-        font-style: oblique;
-    }
-}
-
-.editor-de-recetas {
-    margin-bottom: 75px;
-}
-
-.ingredientes {
-    margin-top: 20px;
-    font-size: 3rem;
-    font-style: italic;
-}
-
-.instrucciones {
-    margin-top: 20px;
-    font-size: 3rem;
-    font-style: italic;
-}
-
-.margin {
-    margin-top: 250px;
+  ul {
+      li {
+          font-size: 2rem;
+          font-style: oblique;
+      }
+  }
+  
+  ol {
+      li {
+          font-size: 2rem;
+          font-style: oblique;
+      }
+  }
+  
+  .ingredientes {
+      margin-top: 20px;
+      font-size: 3rem;
+      font-style: italic;
+  }
+  
+  .instrucciones {
+      margin-top: 20px;
+      font-size: 3rem;
+      font-style: italic;
+  }
 }

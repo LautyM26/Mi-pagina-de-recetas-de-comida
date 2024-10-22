@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RecetasFast</title>
@@ -9,6 +11,13 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 
 <body>
@@ -24,17 +33,17 @@
           <div class="collapse navbar-collapse justify-content-center pseudoclase" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-opacity-10-hover" aria-current="page" href="index.html">Menu</a>
+                <a class="nav-link active link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-opacity-10-hover fs-2 text" aria-current="page" href="index.html">Menu</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-opacity-10-hover" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-opacity-10-hover fs-2 text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Recetas
                 </a>
                 <ul class="dropdown-menu mx-auto">
-                  <li><a class="dropdown-item" href="html/rapidas.html">Recetas Rapidas</a></li>
-                  <li><a class="dropdown-item" href="html/elaboradas.html">Recetas Elaboradas</a></li>
-                  <li><a class="dropdown-item" href="html/vegetarianas.html">Recetas Vegetarianas</a></li>
-                  <li><a class="dropdown-item" href="html/gourmet.html">Recetas Gourmet</a></li>
+                  <li><a class="dropdown-item fs-4 text" href="html/rapidas.html">Recetas Rapidas</a></li>
+                  <li><a class="dropdown-item fs-4 text" href="html/elaboradas.html">Recetas Elaboradas</a></li>
+                  <li><a class="dropdown-item fs-4 text" href="html/vegetarianas.html">Recetas Vegetarianas</a></li>
+                  <li><a class="dropdown-item fs-4 text" href="html/gourmet.html">Recetas Gourmet</a></li>
                 </ul>
               </li>
             </ul>
@@ -50,7 +59,7 @@
             nosotros en esta pagina te recomendaremos los pasos que puedes seguir para hacer la comida que usted desee, lea las diferentes secciones que tenemos y eliga
             en el menu de arriba la que mas le interese para su situacion actual, ¡A poner manos a la obra!</h2>
 
-        <section class="grid-container">
+        <section class="grid-container d-flex flex-column mb-3">
 
             <div class="grid-item-1"> 
                 <img src="multimedia/Comida--rapida.jpg" width="500px" alt="Comidas Rapidas">
@@ -86,18 +95,37 @@
 
     <footer>
 
-       <h3> Mis redes sociales:</h3>
+      <div class="card text-center bg-black">
 
-       <a href="https://www.instagram.com/_lauty_m_/" target="_blank">Instagram</a>
-       <a href="https://x.com/Lauty2605" target="_blank">Twitter</a>
-       <a href="https://www.tiktok.com/@0_lautty_0" target="_blank">Tiktok</a>
+        <div class="card-header">
+          <h3> Mis redes sociales:</h3>
+        </div>
 
-        <h4 class="moverFooter">"Descubre, prueba y disfruta del arte culinario con nosotros. ¡Comparte tu pasión por la cocina y conviértete en el chef de tu hogar! © [Recetas Fast]"</h4>
+        <div class="card-body">
+
+          <h5 class="card-title">
+            <a href="https://www.instagram.com/_lauty_m_/" target="_blank">Instagram</a> 
+            <a href="https://x.com/Lauty2605" target="_blank">Twitter</a> 
+            <a href="https://www.tiktok.com/@0_lautty_0" target="_blank">Tiktok</a> 
+          </h5>
+
+          <p class="card-text"><h4 class="moverFooter">"Descubre, prueba y disfruta del arte culinario con nosotros. ¡Comparte tu pasión por la cocina y conviértete en el chef de tu hogar! © [Recetas Fast]"</h4></p>
+          <a href="#" class="btn btn-danger">Mi pagina</a>
+
+        </div>
+
+      </div>
 
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
-    crossorigin="anonymous"> </script>
+    crossorigin="anonymous"> 
+    </script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
 </body>
 </html>

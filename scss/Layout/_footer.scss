@@ -1,31 +1,30 @@
-footer {background-color: rgb(3, 1, 1);}
-
 footer {
+  a {
+    color: rgb(139, 20, 20);
+    text-decoration: none;
+  }
+
   h3 {
       color: white;
       padding-top: 20px;
       font-style: italic;
       font-size: 2rem;
   }
-}
 
-footer {
   h4 {
-      padding: 20px;
-      color: white;
-      font-size: 130%;
+    padding: 20px;
+    color: white;
+    font-size: 130%;
   }
-}
-
-footer {
-    a {
-        color: rgb(139, 20, 20);
-        text-decoration: none;
-    }
-}
-
-.moverFooter {
+  
+  .moverFooter {
     color: white;
     text-align: center;
     padding-bottom: 20px;
   }
+}
+
+
+
+
+

@@ -1,0 +1,38 @@
+@media (min-width: 320px) {
+    body {
+      main {
+        h2 {
+            font-size: 14px;
+        }
+
+        section {
+            div {
+                img {
+                    width: 100%; /* Escala al 100% del contenedor */
+                    max-width: 320px; /* Limita el ancho máximo a 320px */
+                    height: auto; /* Mantiene la proporción de la imagen */
+                }
+                h3 {
+                    font-size: 50px;
+                }
+
+                h4 {
+                    font-size: 14px;
+                }
+
+                ul {
+                    li {
+                        font-size: 14px;
+                    }
+                }
+
+                ol {
+                    li {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
