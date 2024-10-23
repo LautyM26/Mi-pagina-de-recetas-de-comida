@@ -8,6 +8,12 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <title>RecetasFast</title> <link rel="stylesheet" href="../css/styles.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 
 <body>
@@ -17,8 +23,8 @@
         <nav class="navbar navbar-expand-lg" style="background-color: #202224;">
             <div class="container-fluid d-flex justify-content-between">
               <a class="navbar-brand fs-1 text-danger" href="#">Recetas Fast</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon btn btn-danger"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-center pseudoclase" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
@@ -41,115 +47,111 @@
             </div>
           </nav>
        
-         
      </header>
     
-    <main class="grid-container-gourmet d-flex flex-column mb-3">
-
-        <section class="grid-item-1 d-flex justify-content-center">
-
-           <div>
-               <h3>1-Risotto de Setas y Trufa</h3>
-               <h4 class="ingredientes">Ingredientes:</h4>
-               <ul>
-                   <li>200g de arroz arborio</li>
-                   <li>1L de caldo de verduras</li>
-                   <li>200g de setas (champiñones, portobello, etc.)</li>
-                   <li>50g de queso parmesano rallado</li>
-                   <li>1 cebolla pequeña</li>
-                   <li>2 dientes de ajo</li>
-                   <li>1 copa de vino blanco</li>
-                   <li>Aceite de oliva</li>
-                   <li>Sal y pimienta</li>
-                   <li>Aceite de trufa (opcional)</li>
-               </ul>
-               <h4 class="instrucciones">Instrucciones:</h4>
-               <ol>
-                   <li>Sofríe la cebolla y el ajo picado en aceite de oliva.</li>
-                   <li>Añade las setas y cocina hasta que se doren.</li>
-                   <li>Agrega el arroz y sofríe por unos minutos. Luego, vierte el vino blanco y deja que se evapore. Retira del fuego, añade el queso parmesano y un toque de aceite de trufa.</li>
-                   <li>Añade el caldo de verduras, poco a poco, removiendo constantemente hasta que el arroz esté cremoso y cocido. Sirve con más queso rallado y un toque de pimienta negra</li>
-               </ol>
-           </div>
+    <main class="d-flex flex-column mb-3">
 
 
-           <div>
-            <h3>2-Magret de Pato con Salsa de Naranja</h3>
-            <h4 class="ingredientes">Ingredientes:</h4>
-            <ul>
-                <li>2 pechugas de pato (magret)</li>
-                <li>2 naranjas (zumo y ralladura)</li>
-                <li>50g de azúcar moreno</li>
-                <li>1 copa de vino blanco</li>
-                <li>1 cucharadita de maicena</li>
-                <li>Sal y pimienta</li>
-            </ul>
-            <h4 class="instrucciones">Instrucciones:</h4>
-            <ol>
-                <li>Marca la piel de las pechugas de pato en forma de rombos y sazona con sal y pimienta.</li>
-                <li>Cocina las pechugas en una sartén caliente, primero por el lado de la piel para que suelten grasa y se dore. Luego, dora el otro lado.</li>
-                <li>Para la salsa, reduce el zumo de naranja con el azúcar y el vino blanco. Añade la maicena diluida en un poco de agua para espesar.</li>
-                <li>Sirve el magret con la salsa de naranja por encima y acompaña con un puré de papas o verduras asadas.</li>
-            </ol>
+      <section>
+
+        <div class="container text-center">
+          <div class="row row-cols-2">
+
+            <div class="col tamaños p-5" data-aos="fade-right"> 
+              <h3>1-Risotto de Setas y Trufa</h3>
+              <h4 class="ingredientes">Ingredientes:</h4>
+              <ul>
+                  <li>200g de arroz arborio</li>
+                  <li>1L de caldo de verduras</li>
+                  <li>200g de setas (champiñones, portobello, etc.)</li>
+                  <li>50g de queso parmesano rallado</li>
+                  <li>1 cebolla pequeña</li>
+                  <li>2 dientes de ajo</li>
+                  <li>1 copa de vino blanco</li>
+                  <li>Aceite de oliva</li>
+                  <li>Sal y pimienta</li>
+                  <li>Aceite de trufa (opcional)</li>
+              </ul>
+              <h4 class="instrucciones">Instrucciones:</h4>
+              <ol>
+                  <li>Freir la cebolla y el ajo picado en aceite de oliva.</li>
+                  <li>Añade las setas y cocina hasta que se doren.</li>
+                  <li>Agrega el arroz y freir por unos minutos. Luego, vierte el vino blanco y deja que se evapore. Retira del fuego, añade el queso parmesano y un toque de aceite de trufa.</li>
+                  <li>Añade el caldo de verduras, poco a poco, removiendo constantemente hasta que el arroz esté cremoso y cocido. Sirve con más queso rallado y un toque de pimienta negra</li>
+              </ol>
+            </div>
+
+            <div class="col tamaños p-5" data-aos="fade-left">
+              <h3>2-Magret de Pato con Salsa de Naranja</h3>
+              <h4 class="ingredientes">Ingredientes:</h4>
+              <ul>
+                  <li>2 pechugas de pato (magret)</li>
+                  <li>2 naranjas (zumo y ralladura)</li>
+                  <li>50g de azúcar moreno</li>
+                  <li>1 copa de vino blanco</li>
+                  <li>1 cucharadita de maicena</li>
+                  <li>Sal y pimienta</li>
+              </ul>
+              <h4 class="instrucciones">Instrucciones:</h4>
+              <ol>
+                  <li>Marca la piel de las pechugas de pato en forma de rombos y sazona con sal y pimienta.</li>
+                  <li>Cocina las pechugas en una sartén caliente, primero por el lado de la piel para que suelten grasa y se dore. Luego, dora el otro lado.</li>
+                  <li>Para la salsa, reduce el zumo de naranja con el azúcar y el vino blanco. Añade la maicena diluida en un poco de agua para espesar.</li>
+                  <li>Sirve el magret con la salsa de naranja por encima y acompaña con un puré de papas o verduras asadas.</li>
+                  <li>Sirvelo en la mesa y disfruta de este gran plato con una gran explosion de sabores en tu paladar</li>
+              </ol>
+            </div>
+
+            <div class="col tamaños p-5" data-aos="fade-right">
+              <h3>3-Filete de Res con Salsa de Pimienta Verde</h3>
+              <h4 class="ingredientes">Ingredientes:</h4>
+              <ul>
+                  <li>2 filetes de res (entrecot o solomillo)</li>
+                  <li>1 cucharada de pimienta verde en grano</li>
+                  <li>200ml de crema de leche</li>
+                  <li>1 cucharadita de mostaza de Dijon</li>
+                  <li>1 copa de coñac</li>
+                  <li>Sal y pimienta</li>
+              </ul>
+              <h4 class="instrucciones">Instrucciones:</h4>
+              <ol>
+                  <li>Sella los filetes en una sartén a fuego alto hasta que estén dorados por fuera y cocidos a tu gusto por dentro. Retira y reserva.</li>
+                  <li>En la misma sartén, añade el coñac y deja que se evapore el alcohol. Luego, incorpora la crema de leche, la mostaza y la pimienta verde.</li>
+                  <li>Cocina la salsa hasta que espese. Añade sal y pimienta al gusto.</li>
+                  <li>Sirve los filetes con la salsa y acompaña con papas al gratén o verduras al vapor.</li>
+              </ol>
+            </div>
+
+            <div class="col tamaños p-5" data-aos="fade-left">
+              <h3>4-Tarta Tatin de Manzanas</h3>
+              <h4 class="ingredientes">Ingredientes:</h4>
+              <ul>
+                  <li>4 manzanas golden</li>
+                  <li>150g de azúcar</li>
+                  <li>50g de mantequilla</li>
+                  <li>1 lámina de masa quebrada</li>
+                  <li>Canela en polvo (opcional)</li>
+              </ul>
+              <h4 class="instrucciones">Instrucciones:</h4>
+              <ol>
+                  <li>Pela y corta las manzanas en cuartos.</li>
+                  <li>En una sartén apta para horno, carameliza el azúcar con la mantequilla. Añade las manzanas y cocina hasta que estén doradas.</li>
+                  <li>Cubre las manzanas con la masa quebrada y hornea a 180°C durante 25-30 minutos, hasta que la masa esté dorada.</li>
+                  <li>Deja enfriar unos minutos, da la vuelta a la tarta sobre un plato y sirve tibia con un toque de canela y helado de vainilla.</li>
+              </ol>
+            </div>
+
+          </div>
+
         </div>
-        <div>
 
+      </section>
 
-        </section>
-
-
-
-        <Section class="grid-item-2 d-flex justify-content-center">
+      <Section class="d-flex justify-content-center" data-aos="flip-down">
             <div>
-                <img src="../multimedia/Comida--gourmet2.jpg" class="centrar-imagenes" width="100%" alt="Comida">
+                <img src="../multimedia/Comida--gourmet2.jpg" class="centrar-imagenes" width="300%" alt="Comida">
             </div>
-        </Section>
-
-
-
-        <Section class="grid-item-3 d-flex justify-content-center">
-
-            <div>
-                <h3>3-Filete de Res con Salsa de Pimienta Verde</h3>
-                <h4 class="ingredientes">Ingredientes:</h4>
-                <ul>
-                    <li>2 filetes de res (entrecot o solomillo)</li>
-                    <li>1 cucharada de pimienta verde en grano</li>
-                    <li>200ml de crema de leche</li>
-                    <li>1 cucharadita de mostaza de Dijon</li>
-                    <li>1 copa de coñac</li>
-                    <li>Sal y pimienta</li>
-                </ul>
-                <h4 class="instrucciones justify-content-center">Instrucciones:</h4>
-                <ol>
-                    <li>Sella los filetes en una sartén a fuego alto hasta que estén dorados por fuera y cocidos a tu gusto por dentro. Retira y reserva.</li>
-                    <li>En la misma sartén, añade el coñac y deja que se evapore el alcohol. Luego, incorpora la crema de leche, la mostaza y la pimienta verde.</li>
-                    <li>Cocina la salsa hasta que espese. Añade sal y pimienta al gusto.</li>
-                    <li>Sirve los filetes con la salsa y acompaña con papas al gratén o verduras al vapor.</li>
-                </ol>
-            </div>
-        
-
-            <div>
-                <h3>4-Tarta Tatin de Manzanas</h3>
-                <h4 class="ingredientes">Ingredientes:</h4>
-                <ul>
-                    <li>4 manzanas golden</li>
-                    <li>150g de azúcar</li>
-                    <li>50g de mantequilla</li>
-                    <li>1 lámina de masa quebrada</li>
-                    <li>Canela en polvo (opcional)</li>
-                </ul>
-                <h4 class="instrucciones">Instrucciones:</h4>
-                <ol>
-                    <li>Pela y corta las manzanas en cuartos.</li>
-                    <li>En una sartén apta para horno, carameliza el azúcar con la mantequilla. Añade las manzanas y cocina hasta que estén doradas.</li>
-                    <li>Cubre las manzanas con la masa quebrada y hornea a 180°C durante 25-30 minutos, hasta que la masa esté dorada.</li>
-                    <li>Deja enfriar unos minutos, da la vuelta a la tarta sobre un plato y sirve tibia con un toque de canela y helado de vainilla.</li>
-                </ol>
-            </div>
-
-        </Section>
+      </Section>
 
     </main>
     
@@ -176,6 +178,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"> </script>
     
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 
 </html>

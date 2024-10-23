@@ -4,6 +4,37 @@
       h2 {
           font-size: 20px;
       }
+
+      section {
+        div {
+
+            img {
+                width: 100%;
+                max-width: 1024px;
+                height: auto;
+            }                                                                                                         
+            
+            .tamaños {
+                h3 {
+                    font-size: 22px;
+                }
+                h4 {
+                    font-size: 22px;
+                }
+                ul {
+                    li {
+                        font-size: 22px;
+                    }
+                }
+                ol {
+                    li {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
     }
   }
+}
+
 }

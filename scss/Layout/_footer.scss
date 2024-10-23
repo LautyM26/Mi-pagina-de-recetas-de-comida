@@ -1,3 +1,5 @@
+$color-Blanco: white;
+
 footer {
   a {
     color: rgb(139, 20, 20);
@@ -5,7 +7,7 @@ footer {
   }
 
   h3 {
-      color: white;
+      color: $color-Blanco;
       padding-top: 20px;
       font-style: italic;
       font-size: 2rem;
@@ -13,12 +15,11 @@ footer {
 
   h4 {
     padding: 20px;
-    color: white;
+    color: $color-Blanco;
     font-size: 130%;
   }
   
   .moverFooter {
-    color: white;
     text-align: center;
     padding-bottom: 20px;
   }

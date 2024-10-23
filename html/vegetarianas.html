@@ -8,6 +8,12 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <title>RecetasFast</title> <link rel="stylesheet" href="../css/styles.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 
 <body>
@@ -17,8 +23,8 @@
       <nav class="navbar navbar-expand-lg" style="background-color: #202224;">
         <div class="container-fluid d-flex justify-content-between">
           <a class="navbar-brand fs-1 text-danger" href="#">Recetas Fast</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+            <span class="navbar-toggler-icon btn btn-danger"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center pseudoclase" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
@@ -70,11 +76,15 @@
       </div>      
      </span>
 
-     <main class="grid-container-vegetarianas d-flex flex-column mb-3">
+     <main class="d-flex flex-column mb-3">
 
-        <section class="grid-item-1 d-flex justify-content-center">
+        <section class="d-flex justify-content-center">
 
-            <div>
+          <div class="container text-center">
+
+            <div class="row row-cols-2">
+          
+              <div class="col tamaños p-5" data-aos="fade-right">
                 <h3>1-Tacos de garbanzos</h3>
                 <h4 class="ingredientes">Ingredientes:</h4>
                 <ul>
@@ -93,37 +103,30 @@
                     <li>Calienta las tortillas y rellénalas con los garbanzos y los acompañamientos.</li>
                     <li>¡Sirve y disfruta!</li>
                 </ol>
-            </div>
-                            
-            <div>
-              <h3>2-Lasaña de berenjena y espinacas</h3>
-              <h4 class="ingredientes">Ingredientes:</h4>
-              <ul>
-                  <li>2 berenjenas cortadas en láminas finas</li>
-                  <li>300 g de espinacas frescas</li>
-                  <li>200 g de ricotta o requesón</li>
-                  <li>1 taza de salsa de tomate</li>
-                  <li>200 g de queso rallado</li>
-                  <li>Sal y pimienta</li>
-              </ul>
-              <h4 class="instrucciones">Instrucciones:</h4>
-              <ol>
-                  <li>Precalienta el horno a 180°C.</li>
-                  <li>Asa las láminas de berenjena con un poco de aceite de oliva hasta que estén doradas.</li>
-                  <li>Mezcla la ricotta con las espinacas, sal y pimienta.</li>
-                  <li>En un molde, coloca una capa de salsa de tomate, luego una capa de berenjenas, una de espinacas y repite.Cubre con queso rallado y hornea durante 20-25 minutos.</li>
-                  <li>Cubre con queso rallado y hornea durante 20-25 minutos.</li>
-                  <li>Deja reposar antes de servir.</li>
-              </ol>
-          </div>
-            
-        </section>
+              </div>
 
+              <div class="col tamaños p-5" data-aos="fade-left">
+                <h3>2-Lasaña de berenjena y espinacas</h3>
+                <h4 class="ingredientes">Ingredientes:</h4>
+                <ul>
+                    <li>2 berenjenas cortadas en láminas finas</li>
+                    <li>300 g de espinacas frescas</li>
+                    <li>200 g de ricotta o requesón</li>
+                    <li>1 taza de salsa de tomate</li>
+                    <li>200 g de queso rallado</li>
+                    <li>Sal y pimienta</li>
+                </ul>
+                <h4 class="instrucciones">Instrucciones:</h4>
+                <ol>
+                    <li>Precalienta el horno a 180°C.</li>
+                    <li>Asa las láminas de berenjena con un poco de aceite de oliva hasta que estén doradas.</li>
+                    <li>Mezcla la ricotta con las espinacas, sal y pimienta.</li>
+                    <li>En un molde, coloca una capa de salsa de tomate, luego una capa de berenjenas, una de espinacas y repite.</li>
+                    <li>Cubre con queso rallado y hornea durante 20-25 minutos.</li>
+                </ol>
+              </div>
 
-
-        <section class="grid-item-2 d-flex justify-content-center">
-
-            <div>
+              <div class="col tamaños p-5" data-aos="fade-right">
                 <h3>3-Curry de verduras</h3>
                 <h4 class="ingredientes">Ingredientes:</h4>
                 <ul>
@@ -145,55 +148,32 @@
                     <li>Vierte la leche de coco y deja cocinar a fuego lento durante 15 minutos.</li>
                     <li>Sirve con arroz.</li>
                 </ol>
-            </div>
+              </div>
 
-        </section>
-
-
-
-        <section class="grid-item-3 d-flex justify-content-center">
-
-            <div>
-              <h3>4-Hamburguesas de lentejas</h3>
-              <h4 class="ingredientes">Ingredientes:</h4>
-              <ul>
-                  <li>1 taza de lentejas cocidas</li>
-                  <li>1 cebolla picada</li>
-                  <li>1 diente de ajo</li>
-                  <li>1 cucharada de comino</li>
-                  <li>1/2 taza de pan rallado</li>
-                  <li>1 huevo (opcional)</li>
-                  <li>Sal y pimienta</li>
-                  <li>Pan de hamburguesa y tus toppings favoritos</li>
-              </ul>
-              <h4 class="instrucciones">Instrucciones:</h4>
-              <ol>
-                  <li>Machaca las lentejas cocidas hasta obtener una mezcla espesa.</li>
-                  <li>Sofríe la cebolla y el ajo, y añádelos a la mezcla de lentejas junto con el comino, sal, pimienta, pan rallado y huevo (si usas).</li>
-                  <li>Forma hamburguesas con la masa y cocínalas en una sartén con un poco de aceite.</li>
-                  <li>Sirve en pan de hamburguesa con tus toppings favoritos.</li>
-              </ol>
-          </div>
-
-            <div>
-                <h3>5-Ensalada de quinoa y aguacate</h3>
+              <div class="col tamaños p-5" data-aos="fade-left">
+                <h3>4-Hamburguesas de lentejas</h3>
                 <h4 class="ingredientes">Ingredientes:</h4>
                 <ul>
-                    <li>1 taza de quinoa cocida</li>
-                    <li>1 aguacate en cubos</li>
-                    <li>1 tomate picado</li>
-                    <li>1 pepino en rodajas</li>
-                    <li>Jugo de limón</li>
-                    <li>Aceite de oliva</li>
+                    <li>1 taza de lentejas cocidas</li>
+                    <li>1 cebolla picada</li>
+                    <li>1 diente de ajo</li>
+                    <li>1 cucharada de comino</li>
+                    <li>1/2 taza de pan rallado</li>
+                    <li>1 huevo (opcional)</li>
                     <li>Sal y pimienta</li>
+                    <li>Pan de hamburguesa y tus toppings favoritos</li>
                 </ul>
                 <h4 class="instrucciones">Instrucciones:</h4>
                 <ol>
-                    <li>Mezcla la quinoa cocida con el aguacate, tomate y pepino.</li>
-                    <li>Aliña con jugo de limón, aceite de oliva, sal y pimienta al gusto.</li>
-                    <li>Sirve como plato principal o acompañamiento.</li>
+                    <li>Machaca las lentejas cocidas hasta obtener una mezcla espesa.</li>
+                    <li>Sofríe la cebolla y el ajo, y añádelos a la mezcla de lentejas junto con el comino, sal, pimienta, pan rallado y huevo (si usas).</li>
+                    <li>Forma hamburguesas con la masa y cocínalas en una sartén con un poco de aceite.</li>
+                    <li>Sirve en pan de hamburguesa con tus toppings favoritos.</li>
                 </ol>
+              </div>
             </div>
+
+          </div>
 
         </section>
 
@@ -220,6 +200,11 @@
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
      crossorigin="anonymous"> </script>
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
 
 </body>
 </html>

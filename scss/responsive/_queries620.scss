@@ -2,8 +2,38 @@
   body {
     main {
       h2 {
-          font-size: 16px;
+          font-size: 18px;
       }
+
+      section {
+        div {
+            
+            img {
+                width: 100%; /* Escala al 100% del contenedor */
+                max-width: 620px;
+                height: auto;
+            }
+
+            .tamaños {
+                h3 {
+                    font-size: 18px;
+                }
+                h4 {
+                    font-size: 18px;
+                }
+                ul {
+                    li {
+                        font-size: 18px;
+                    }
+                }
+                ol {
+                    li {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
     }
   }
 }
