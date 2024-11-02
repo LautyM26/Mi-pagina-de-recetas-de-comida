@@ -1,4 +1,4 @@
-@media (min-width: 620px) {
+@media (min-width: 620px) { // para poder achicar la imagen y que no colapce
   body {
     main {
       h2 {
@@ -9,7 +9,7 @@
         div {
             
             img {
-                width: 100%; /* Escala al 100% del contenedor */
+                width: 100%; 
                 max-width: 620px;
                 height: auto;
             }
@@ -37,4 +37,3 @@
     }
   }
 }
-  

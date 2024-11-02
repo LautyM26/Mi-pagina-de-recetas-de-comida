@@ -1,6 +1,10 @@
 $color-Blanco: white;
 
 footer {
+
+  margin-top: -15px; /* Ajusta este valor para reducir el espacio */
+
+
   a {
     color: rgb(139, 20, 20);
     text-decoration: none;
@@ -8,24 +12,16 @@ footer {
 
   h3 {
       color: $color-Blanco;
-      padding-top: 20px;
       font-style: italic;
       font-size: 2rem;
   }
 
   h4 {
-    padding: 20px;
     color: $color-Blanco;
-    font-size: 130%;
   }
-  
+
   .moverFooter {
     text-align: center;
-    padding-bottom: 20px;
   }
-}
 
-
-
-
-
+} //Colores y posicionamiento para el footer

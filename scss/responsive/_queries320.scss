@@ -1,39 +1,39 @@
-@media (min-width: 320px) {
-    body {
-      main {
-        h2 {
-            font-size: 14px;
-        }
+@media (min-width: 320px) { // para poder achicar la imagen y que no colapce
+  body {
+    main {
+      h2 {
+          font-size: 14px;
+      }
 
-        section {
-            div {
-                
-                img {
-                    width: 100%; /* Escala al 100% del contenedor */
-                    max-width: 320px; /* Limita el ancho máximo a 320px */
-                    height: auto; /* Mantiene la proporción de la imagen */
-                }
-
-                .tamaños {
-                    h3 {
-                        font-size: 14px;
-                    }
-                    h4 {
-                        font-size: 14px;
-                    }
-                    ul {
-                        li {
-                            font-size: 14px;
-                        }
-                    }
-                    ol {
-                        li {
-                            font-size: 14px;
-                        }
-                    }
-                }
-            }
-        }
+      section {
+          div {
+              
+              img {
+                  width: 100%; 
+                  max-width: 320px; 
+                  height: auto; 
+              }
+              
+              .tamaños {
+                  h3 {
+                      font-size: 14px;
+                  }
+                  h4 {
+                      font-size: 14px;
+                  }
+                  ul {
+                      li {
+                          font-size: 14px;
+                      }
+                  }
+                  ol {
+                      li {
+                          font-size: 14px;
+                      }
+                  }
+              }
+          }
       }
     }
   }
+}

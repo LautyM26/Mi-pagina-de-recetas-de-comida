@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+/* Modifica todos los Colores y Tamaños (esta conectado con SASS) */
+
 * {
   margin: 0;
   padding: 0;
@@ -82,6 +85,10 @@ main .padding {
   padding: 10px;
 }
 
+footer {
+  margin-top: -15px; 
+}
+
 footer a {
   color: rgb(139, 20, 20);
   text-decoration: none;
@@ -112,9 +119,9 @@ footer .moverFooter {
     font-size: 14px;
   }
   body main section div img {
-    width: 100%; /* Escala al 100% del contenedor */
-    max-width: 320px; /* Limita el ancho máximo a 320px */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%; 
+    max-width: 320px; 
+    height: auto; 
   }
   body main section div .tamaños h3 {
     font-size: 14px;
@@ -134,7 +141,7 @@ footer .moverFooter {
     font-size: 18px;
   }
   body main section div img {
-    width: 100%; /* Escala al 100% del contenedor */
+    width: 100%; 
     max-width: 620px;
     height: auto;
   }
@@ -195,5 +202,3 @@ footer .moverFooter {
     font-size: 26px;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
